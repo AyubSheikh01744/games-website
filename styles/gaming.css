@@ -174,6 +174,47 @@ p{
     background: #4EC5F7;
 }
 
+/* main-section style */
+
+.main-section{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.main-section-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-section-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 35px; */
+    margin-top: 20px;
+}
+
+.card-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card-image{
+    border-radius: 16px;
+}
+.card-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; 
+}
+
 
 
 
